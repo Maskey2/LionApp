@@ -1,0 +1,114 @@
+body {
+  background: #e0e3d3;
+  font-family: "Lato", sans-serif;
+}
+.title {
+  font: 5em "Lexend Deca", sans-serif;
+  text-align: center;
+}
+.responsive {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.nav-items {
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
+}
+.nav-items a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-items a.active {
+  color: cadetblue;
+}
+
+.nav-items a:hover:not(.active) {
+  color: cadetblue;
+}
+.b {
+  border: 1px solid #d2d4c7;
+}
+
+.center {
+  text-align: center;
+}
+.label {
+  text-align: center;
+}
+.label-quick-link {
+  text-align: center;
+  border-bottom: 3px solid #4a8548;
+  padding: 3px;
+  font-size: 25px;
+}
+
+.label-signup {
+  display: inline-block;
+  padding: 4px;
+  margin-left: 15px;
+  font-size: 15px;
+  border-bottom: 3px solid #4a8548;
+  margin-bottom: 5px;
+}
+.form {
+  background-color: rgb(57, 112, 56);
+  padding: 15px;
+}
+.form-text {
+  color: #e8f1e7;
+}
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #e8f1e7;
+  background-color: #4b8049;
+}
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #e8f1e7;
+  background-color: #4b8049;
+}
+.btn {
+  color: #4a8548;
+  border: 1px solid #4a8548;
+  background-color: #e8f1e7;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.quick-link-image {
+  max-width: 150px;
+  height: auto;
+  padding: 5px;
+}
+.content {
+  padding: 10px;
+}
+.content-title {
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #33363a;
+  height: 300px;
+  color: darkgray;
+  padding-top: 50px;
+}
+.sm1 {
+  max-width: 50px;
+}
+.sm2 {
+  max-width: 37px;
+}
+.sm3 {
+  margin: 15px;
+  max-width: 150px;
+}
