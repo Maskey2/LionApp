@@ -116,6 +116,23 @@ input[type="password"] {
   padding: 5px;
 }
 
+.table {
+  border: 1px solid black;
+}
+.contact-table {
+  width: 40%;
+  font-size: 18px;
+  padding: 9px;
+  margin: 10px;
+}
+.btn-join {
+  display: inline-block;
+  padding: 5px;
+  background-color: #4a8548;
+  border: none;
+  color: whitesmoke;
+}
+
 .footer {
   margin-top: 20px;
   background-color: #33363a;

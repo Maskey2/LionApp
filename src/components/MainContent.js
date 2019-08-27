@@ -3,8 +3,6 @@ import QuickLinks from "../components/QuickLinks";
 import Content from "../components/Content";
 import Signup from "../components/Signup";
 
-import { FaEnvelope, FaLocationArrow } from "react-icons/fa/index";
-
 function MainContent() {
   return (
     <div>
